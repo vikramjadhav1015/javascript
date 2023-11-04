@@ -19,7 +19,7 @@ let isLoggedIn =  true
 // boolean => true/false
 // null => standalone value
 // undefined => no value
-// symobol => unique
+// symbol => unique
 
 
 // object
