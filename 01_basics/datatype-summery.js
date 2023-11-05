@@ -58,3 +58,31 @@ console.log(typeof null); //object
 console.log(typeof undefined); //undefined
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive) - by Value
+// Heap (Non primitive) - by Reference
+
+let myYoutubeName = 'vikram'
+let anotherName = myYoutubeName
+anotherName = "jadhav"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    name : "vikram",
+    email : "abc@gmail"
+}
+
+userTwo =  userOne
+
+userTwo.name = "jadhav"
+
+console.log(userOne.name);
+console.log(userTwo.name);
+
+
+
+
+
